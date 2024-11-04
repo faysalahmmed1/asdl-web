@@ -8,7 +8,7 @@ const Header = () => {
     const toggleMenu = () => setIsOpen(!isOpen);
 
     return (
-        <div>
+        <div className='w-full'>
             <nav className="bg-blue-700 text-white p-4">
                 <div className="container mx-auto flex justify-between items-center">
                     <Link to="/" className="text-lg font-semibold">ASDL</Link>
